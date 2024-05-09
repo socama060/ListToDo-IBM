@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#tareas {
+    margin-top: 20px;
+}
+
+.tarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.tarea.completed {
+    background-color: #d4edda;
+}
+
+.tarea p {
+    margin: 0;
+}
+
+.delete-btn {
+    float: right;
+    color: #dc3545;
+    cursor: pointer;
+}
+
+/* Estilos para el formulario de agregar tarea */
+#form-agregar {
+    margin-bottom: 20px;
+    display: flex; /* Utiliza flexbox para alinear los elementos internamente */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+}
+
+#descripcion {
+    flex: 1; /* El campo de texto toma todo el espacio disponible */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px; /* Añade espacio entre el campo de texto y el botón */
+}
+
+#descripcion:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+#btn-agregar {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745; /* Color verde */
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto; /* Mueve el botón a la derecha del contenedor */
+}
+
+#btn-agregar:hover {
+    background-color: #218838; /* Color verde oscuro */
+}

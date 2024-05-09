@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestor de Tareas</h1>
+        
+        <!-- Formulario para agregar una nueva tarea -->
+        <form id="form-agregar">
+            <input type="text" id="descripcion" placeholder="Ingrese la descripción de la nueva tarea" required>
+            <button type="submit">Agregar Tarea</button>
+        </form>
+
+        <div class="options">
+            <button onclick="mostrarTareas()">Mostrar todas las tareas</button>
+        </div>
+        <div id="tareas"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="Program.py"></script>
+</body>
+</html>
