@@ -4,12 +4,14 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+
 header {
     background-color: #333;
     color: #fff;
     padding: 10px;
     text-align: center;
 }
+
 .container {
     max-width: 800px;
     margin: 20px auto;
@@ -80,7 +82,10 @@ button:hover {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-right: 10px; /* Añade espacio entre el campo de texto y el botón */
+    overflow-x: auto; /* Permite el desplazamiento horizontal si el texto es demasiado largo */
+    min-width: 300px; /* Establece un ancho mínimo para el campo */
 }
+
 
 #descripcion:focus {
     outline: none;
@@ -100,6 +105,7 @@ button:hover {
 #btn-agregar:hover {
     background-color: #218838; /* Color verde oscuro */
 }
+
 footer {
     background-color: #333;
     color: #fff;
