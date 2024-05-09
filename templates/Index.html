@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <h1>Gestor de Tareas</h1>
+    </header>
+    <div class="container">
+        <h1>Tareas</h1>
+        
+        <!-- Formulario para agregar una nueva tarea -->
+        <input type="text" id="descripcion" placeholder="Ingrese la descripción de la nueva tarea" required>
+        <button id="agregar-tarea">Agregar Tarea</button>
+
+        <div class="options">
+            <br>
+            <button id="actualizar-tareas">Mostrar todas las tareas</button>
+        </div>
+        <div id="tareas"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+    <footer>
+        <p>&copy; 2024 - Sonia Camacho</p>
+    </footer>
+
+</body>
+</html>
